@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Verdana;
+  color: rgb(153, 153, 153);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 634px;
+  background-color: rgb(255, 249, 0);
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 186px;
+  height: auto;
+  margin: -521px 0 0 26.8%;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 68%;
+  min-height: 280px;
+  margin: -369px 0 0 16.79167%;
+  padding-bottom: 6px;
+  background-color: rgba(255, 233, 0, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(153, 153, 153);
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+}
+
+._button-1 {
+  width: 55.7333333333%;
+  height: 62px;
+  margin: -889px 0 0 22.8%;
+  background-color: rgba(255, 233, 0, 0);
+  color: rgb(0, 136, 255);
+}
+
+._button-2 {
+  position: relative;
+  clear: both;
+  z-index: 3;
+  width: 6.1333333333%;
+  height: 29px;
+  margin: -622px 0 0 2.1291699999%;
+  background-color: rgba(255, 226, 0, 0.47);
+  color: rgb(0, 0, 0);
+}

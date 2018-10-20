@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Verdana;
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 109px;
+  height: auto;
+  margin: 210px 0 0 36.4%;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 61.2%;
+  height: 60px;
+  margin: 157px 0 0 18.52917%;
+  border-radius: 9px;
+  background-color: rgba(16, 178, 210, 0.94);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
